@@ -1,0 +1,256 @@
+{
+  "rates": [
+    {
+      "Room_name": "Double Room (Compact)",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 264.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Double Room (Compact)",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 293.64,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Double Room (Compact)",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 316.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Double Room (Compact)",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 345.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Double Room",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 300.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Double Room",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 320.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Double Room",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 350.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Double Room",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 370.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Twin Room",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 340.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Twin Room",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 360.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Twin Room",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 380.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Deluxe Twin Room",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 400.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Twin Room",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 380.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Twin Room",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 400.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Twin Room",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 420.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Twin Room",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 440.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Double Room",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 400.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Double Room",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 420.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Double Room",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 440.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Club Double Room",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 460.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 500.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 520.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 540.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 560.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 580.29,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 600.34,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Breakfast Included, Internet Included - Non-refundable",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 23:00 (GMT+01:00) on Jun 21, 2024 are subject to a 100% cost of stay penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 620.40,
+      "Top Deal": true,
+      "Currency": "AUD"
+    },
+    {
+      "Room_name": "Triple Room, 1 Double Bed",
+      "Rate_name": "Internet Included, Breakfast Included",
+      "Number of Guests": "2 Guests",
+      "Cancellation Policy": "Cancellations or changes made after 14:00 (GMT+01:00) on Aug 01, 2024 are subject to a 1 night room & tax penalty. If you fail to check-in for this reservation, or if you cancel or change this reservation after check-in, you may incur penalty charges at the discretion of the property of up to 100% of the booking value.",
+      "Price": 640.77,
+      "Top Deal": true,
+      "Currency": "AUD"
+    }
+  ]
+}
