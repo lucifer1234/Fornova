@@ -2,16 +2,15 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-import time 
+import time
 from selenium.webdriver.common.by import By
-from bs4 import BeautifulSoup
 import json
-
+ 
 # configure Chrome Webdriver
 def configure_chrome_driver(headless=False):
     # Add additional Options to the webdriver
     chrome_options = ChromeOptions()
-    
+   
     # add the argument and make the browser Headless.
     if headless:
         chrome_options.add_argument("--headless")
@@ -42,31 +41,50 @@ def configure_chrome_driver(headless=False):
     # Download chrome driver in cache
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     return driver
+
 def run():
     driver=configure_chrome_driver()
-    g=driver.get("https://www.qantas.com/hotels/properties/18482?adults=2&checkIn=2024-08-02&checkOut=2024-08-03&children=0&infants=0&location=London%2C%20England%2C%20United%20Kingdom&page=1&payWith=cash&searchType=list&sortBy=popularity")
+    driver.maximize_window()
+    driver.get("https://www.qantas.com/hotels/properties/18482?adults=2&checkIn=2024-08-02&checkOut=2024-08-03&children=0&infants=0&location=London%2C%20England%2C%20United%20Kingdom&page=1&payWith=cash&searchType=list&sortBy=popularity")
     time.sleep(20)
-    # html=driver.page_source
-    # soup = BeautifulSoup(html, 'html.parser')
     data=[]
-   
-    for e in driver.find_elements(By.XPATH,'//*[contains(@class, "css-3c0j8b-Box-Flex")]'):
+    try:
+        for e in driver.find_elements(By.XPATH,'//div[contains(@class, "css-du5wmh-Box")]'):
+            room_name=e.find_element(By.XPATH,'.//*[contains(@class, "css-19vc6se-Heading-Heading-Text")]').text
+            for i in e.find_elements(By.XPATH,'.//*[contains(@class, "css-1wzt5tj-Box")]'):
+                try:
+                    rate_name = i.find_element(By.XPATH,'.//h3[contains(@class, "css-6qo8xy-Heading-Heading-Text")]').text
+                except:
+                    rate_name = i.find_element(By.XPATH,'.//h3[contains(@class, "css-10yvquw-Heading-Heading-Text")]').text
+                cancel =  i.find_element(By.XPATH, './/*[@id="cancellation-policy-button"]').text
+                facilities =  i.find_element(By.XPATH, './/*[contains(@class, "css-rz7hex-Text")]').text
+                price =  i.find_element(By.XPATH, './/span[contains(@data-testid, "amount")]').text
+                deal = True if i.find_element(By.XPATH, './/span[contains(@class, "css-1jr3e3z-Text-BadgeText")]').text == "TOP DEAL" else False
+                try:
+                    guest = i.find_element(By.XPATH,'.//span[contains(@data-testid, "guests")]').text
+                except Exception as e:
+                    guest = i.find_element(By.XPATH,'.//span[contains(@data-testid, "offer-guest-text")]').text.replace("1 night from", "")
+                d={
+                    "Room_name": room_name,
+                    "Rate_name": rate_name,
+                    "Number_of_Guests": guest,
+                    "Cancellation_Policy": cancel,
+                    "Facilities": facilities,
+                    "Price": price,
+                    "Is_Top_Deal": deal,
+                    "Currency": "AUD"
+                }
+                data.append(d)
+    except Exception as e:
+        print("something went wrong")
+    driver.quit()
+    return data
 
-      
-        room_name=e.find_element(By.XPATH,'//*[contains(@class, "css-19vc6se-Heading-Heading-Text")]')
-        import pdb; pdb.set_trace()
-        for i in driver.find_elements(By.CLASS_NAME,'css-1wzt5tj-Box e1m6xhuh0'):
-            d={
-                "Room_name": room_name,
-                "Rate_name": i.find_element(By.XPATH,'//h3')
-        # "Number_of_Guests": safe_extract(element, 'div.css-iux7bv-Box'),
-        # "Cancellation_Policy": safe_extract(element, 'div.css-1f6l7uq-Box-Flex'),
-        # "Price": extract_price(element),
-        # "Is_Top_Deal": bool(element.select_one('div.css-1umloc1-Box-Flex-BadgeFrame')),
-        # "Currency": "USD"  # Assuming USD, adjust if needed
-            }
-            data.append(d)
-    
-    return g
+result=run()
+result_json = json.dumps(result, indent=2)
+print(result_json)
 
-run()
+
+with open('rates.json', 'w') as f:
+    json.dump(result, f, indent=2)
+ 
